@@ -1,4 +1,4 @@
-FROM jupyter/scipy-notebook:2023-07-31
+FROM jupyter/scipy-notebook:2022-10-09
 USER jovyan
 
 RUN git clone https://github.com/santi-nue/stl20.git ./dask-sql-binder
